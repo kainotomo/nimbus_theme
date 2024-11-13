@@ -1,0 +1,24 @@
+// navbar
+.navbar-primary {
+    background: linear-gradient(to right, darken($logo-blue, 20%), $logo-blue);
+    padding: 12px 0;
+
+    .navbar-search {
+        background-color: white;
+        color: var(--gray-700);
+
+        &::placeholder {
+            color: var(--gray-500);
+        }
+    }
+}
+
+.navbar {
+    .navbar-nav {
+        .nav-item {
+            &.active {
+                border-bottom: 1px solid var(--logo-yellow);
+            }
+        }
+    }
+}
