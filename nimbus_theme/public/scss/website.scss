@@ -148,8 +148,7 @@ a:hover {
     font-size: var(--text-xl);
 }
 
-.navbar-brand,
-.card {
+.navbar-brand {
     transition: transform 0.3s ease;
     transform-origin: center center;
 }
@@ -158,35 +157,18 @@ a:hover {
     transform: scale(1.5) translateZ(0);
 }
 
+.card {
+    border: 1px solid var(--gray-300);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
 .card:hover {
     transform: scale(1.05) translateZ(0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-
-// navbar
-.navbar-primary {
-    background: linear-gradient(to right, darken($logo-blue, 20%), $logo-blue);
-    padding: 12px 0;
-
-    .navbar-search {
-        background-color: white;
-        color: var(--gray-700);
-
-        &::placeholder {
-            color: var(--gray-500);
-        }
-    }
-}
-
-.navbar {
-    .navbar-nav {
-        .nav-item {
-            &.active {
-                border-bottom: 1px solid var(--logo-yellow);
-            }
-        }
-    }
-}
 
 // animations
 html {
