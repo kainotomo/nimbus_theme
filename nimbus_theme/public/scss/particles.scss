@@ -1,0 +1,16 @@
+.particles-js-canvas-el {
+    position: absolute; // Changed from relative to absolute
+    top: 0; // Added to position the canvas at the top
+    left: 0; // Added to position the canvas at the left
+    width: 100%;
+    height: 100%;
+    z-index: 1; // Changed from -1 to 1 to place the canvas in front of the section content
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+}
+
+.section {
+    position: relative; // Ensure the section is positioned relative to contain the absolute positioned canvas
+    // ...existing code...
+}
