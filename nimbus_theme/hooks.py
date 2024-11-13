@@ -29,8 +29,8 @@ app_license = "gpl-3.0"
 # app_include_js = "/assets/nimbus_theme/js/nimbus_theme.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/nimbus_theme/css/nimbus_theme.css"
-# web_include_js = "/assets/nimbus_theme/js/nimbus_theme.js"
+web_include_css = "nimbus_theme-web.bundle.css"
+web_include_js = "nimbus_theme-web.bundle.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "nimbus_theme/public/scss/website"
