@@ -12,5 +12,9 @@
 
 .nimbus-particles {
     position: relative; // Ensure the section is positioned relative to contain the absolute positioned canvas
-    // ...existing code...
+}
+
+.hero-buttons {
+    position: relative; // Ensure the section is positioned relative to contain the absolute positioned canvas
+    z-index: 2;
 }
