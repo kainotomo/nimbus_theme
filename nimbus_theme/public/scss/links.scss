@@ -1,0 +1,24 @@
+.navbar-brand {
+    animation: animation_nav 2s ease-in-out;
+}
+
+// zoom in cards, buttons and links
+.btn-primary,
+a,
+.dropdown-menu {
+    transition: 0.3s;
+}
+
+.btn-primary:hover,
+a:hover {
+    font-size: var(--text-xl);
+}
+
+.navbar-brand {
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.5) translateZ(0);
+}
