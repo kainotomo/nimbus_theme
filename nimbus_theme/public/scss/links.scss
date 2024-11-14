@@ -1,5 +1,6 @@
 .navbar-brand {
-    animation: animation_nav 2s ease-in-out;
+    animation-name: zoom_in_out;
+    animation-delay: 50ms
 }
 
 // zoom in cards, buttons and links

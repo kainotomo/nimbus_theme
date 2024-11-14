@@ -1,5 +1,6 @@
 import "./gdpr-cookie.js";
 import "./particles/particles.js";
+import "./animations.js";
 
 if (document.getElementById('nimbus-particles')) {
   particlesJS.load('nimbus-particles', '/assets/nimbus_theme/js/particles/particles.json', function() {
