@@ -1,7 +1,7 @@
 // navbar
 .navbar-primary {
-    background: linear-gradient(to right, darken($logo-blue, 20%), $logo-blue);
-    padding: 12px 0;
+    background: linear-gradient(to right, darken($logo-blue, 25%), $logo-blue);
+    padding: 12px 0;    
 
     .navbar-search {
         background-color: white;
@@ -14,10 +14,21 @@
 }
 
 .navbar {
+
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 2px -2px var(--gray-800);
+
     .navbar-nav {
         .nav-item {
             &.active {
                 border-bottom: 1px solid var(--logo-yellow);
+            }
+            .nav-link:hover {
+                color: var(--logo-yellow);
             }
         }
     }

@@ -1,0 +1,42 @@
+.navbar-brand {
+    animation-name: zoom_in_out;
+    animation-delay: 50ms
+}
+
+.btn-primary,
+a,
+.dropdown-menu {
+    transition: 0.3s;
+}
+
+.btn-primary:hover,
+a:hover {
+    font-size: var(--text-xl);
+}
+
+.navbar-brand {
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.5) translateZ(0);
+}
+
+.btn.btn-primary {
+	background-color: var(--btn-blue);	
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: var(--btn-blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    @extend .btn-primary;
+}
