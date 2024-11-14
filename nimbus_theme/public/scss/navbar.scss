@@ -2,6 +2,11 @@
 .navbar-primary {
     background: linear-gradient(to right, darken($logo-blue, 25%), $logo-blue);
     padding: 12px 0;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
 
     .navbar-search {
         background-color: white;
