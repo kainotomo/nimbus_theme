@@ -19,6 +19,9 @@
             &.active {
                 border-bottom: 1px solid var(--logo-yellow);
             }
+            .nav-link:hover {
+                color: var(--logo-yellow);
+            }
         }
     }
 }
