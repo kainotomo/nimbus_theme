@@ -22,3 +22,7 @@ a:hover {
 .navbar-brand:hover {
     transform: scale(1.5) translateZ(0);
 }
+
+.btn.btn-primary {
+	background-color: var(--btn-blue);	
+}
