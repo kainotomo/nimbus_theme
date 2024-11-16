@@ -1,5 +1,5 @@
 // Select the elements to observe
-var elements = document.querySelectorAll('.card, .hero-subtitle, .hero-buttons');
+var elements = document.querySelectorAll('.section-with-cards, .blog-card, .hero-subtitle, .hero-buttons');
 
 // Create a new Intersection Observer instance
 var observer = new IntersectionObserver(function(entries) {
