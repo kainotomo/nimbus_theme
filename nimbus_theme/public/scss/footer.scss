@@ -1,0 +1,14 @@
+.web-footer-nimbus {
+	background-color: var(--gray-800);
+}
+
+.footer-link,
+.footer-child-item a {
+	color: var(--gray-100);
+    font-weight: 200;
+
+	&:hover {
+		color: var(--gray-200);
+		text-decoration: none;
+	}
+}
