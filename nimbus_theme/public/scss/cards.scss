@@ -4,7 +4,7 @@
 }
 .card:hover {
     transform: scale(1.05) translateZ(0);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px $nimbus_main;
 }
 .payment-summary {
     .card:hover {
@@ -21,4 +21,20 @@
     animation: fade_up 1s ease-in-out;
     animation-fill-mode: both;
     animation-delay: 150ms;
+}
+
+.nimbus-features {
+    text-align: center;
+    .card {
+        border: 1px solid $nimbus_main;
+    }
+    .card-img-top {
+        width: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-title {
+        color: $nimbus_main;
+    }
 }

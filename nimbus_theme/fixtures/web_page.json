@@ -20,7 +20,7 @@
   "meta_description": null,
   "meta_image": null,
   "meta_title": null,
-  "modified": "2024-11-26 17:31:41.168555",
+  "modified": "2024-11-26 17:36:14.801649",
   "module": "Nimbus Theme",
   "name": "nimbus-home",
   "page_blocks": [
@@ -51,7 +51,7 @@
     "add_shade": 0,
     "add_top_padding": 1,
     "background_image": null,
-    "css_class": null,
+    "css_class": "nimbus-features",
     "hide_block": 0,
     "parent": "nimbus-home",
     "parentfield": "page_blocks",
