@@ -24,7 +24,13 @@ a:hover {
 }
 
 .btn.btn-primary {
-	background-color: var(--btn-blue);	
+	background-color: $nimbus_blue;	
+}
+.btn-dark {
+	background-color: darken($nimbus_blue, 45%);
+}
+.btn-dark:hover {
+    background-color: darken($nimbus_blue, 30%);
 }
 
 #back-to-top {
@@ -32,7 +38,7 @@ a:hover {
     bottom: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: var(--btn-blue);
+    background-color: $nimbus_blue;
     color: white;
     border: none;
     border-radius: 5px;
