@@ -20,7 +20,7 @@
   "meta_description": null,
   "meta_image": null,
   "meta_title": null,
-  "modified": "2024-11-26 10:28:37.561385",
+  "modified": "2024-11-26 17:19:51.267993",
   "module": "Nimbus Theme",
   "name": "nimbus-home",
   "page_blocks": [
@@ -32,7 +32,7 @@
     "add_container": 1,
     "add_shade": 0,
     "add_top_padding": 1,
-    "background_image": null,
+    "background_image": "",
     "css_class": "nimbus-particles nimbus_dark",
     "hide_block": 0,
     "parent": "nimbus-home",
@@ -40,7 +40,7 @@
     "parenttype": "Web Page",
     "section_id": "nimbus-particles",
     "web_template": "Hero",
-    "web_template_values": "{\"title\":\"Delivering Superior Services IT Solutions.\",\"subtitle\":\"You can easily change any design to your own. It is also highly customizable SEO friendly template.\",\"primary_action_label\":\"Get Quotes\",\"primary_action\":\"/contact-us\",\"secondary_action_label\":\"Get Started\",\"secondary_action\":\"/services\",\"align\":\"Left\"}"
+    "web_template_values": "{\"title\":\"Delivering Superior Services IT Solutions.\",\"subtitle\":\"You can easily change the content and colors to your own. It is also SEO friendly template.\",\"primary_action_label\":\"Get Quotes\",\"primary_action\":\"/contact-us\",\"secondary_action_label\":\"Get Started\",\"secondary_action\":\"/services\",\"align\":\"Left\"}"
    }
   ],
   "published": 1,
