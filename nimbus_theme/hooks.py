@@ -242,3 +242,12 @@ web_include_js = "nimbus_theme-web.bundle.js"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {
+        "doctype": "Web Page",
+        "filters": [
+            ["module", "in", ["Nimbus Theme"]]
+        ]
+    }
+]
+
