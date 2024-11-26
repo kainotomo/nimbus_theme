@@ -14,20 +14,16 @@
  "font_size": "",
  "google_font": "Poppins",
  "idx": 2,
- "ignored_apps": [
-  {
-   "app": "webshop"
-  }
- ],
+ "ignored_apps": [],
  "js": "",
- "modified": "2024-11-16 08:49:04.850421",
+ "modified": "2024-11-26 08:47:47.399760",
  "modified_by": "Administrator",
  "module": "Nimbus Theme",
  "name": "Nimbus",
  "owner": "Administrator",
- "primary_color": "",
+ "primary_color": "logo-blue",
  "text_color": "",
  "theme": "Nimbus",
- "theme_scss": "\n@import url(\"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n// backward compatibility. deprecated in v15\n$font-family-sans-serif: \"Poppins\", \"InterVariable\", \"Inter\", -apple-system, BlinkMacSystemFont,\n\t\"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\",\n\t\"Droid Sans\", \"Helvetica Neue\", sans-serif;\n\n// override font stack if custom font is set in website theme\n:root {\n\t--font-stack: \"Poppins\", \"InterVariable\", \"Inter\", -apple-system, BlinkMacSystemFont,\n\t\"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\",\n\t\"Droid Sans\", \"Helvetica Neue\", sans-serif !important;\n}\n$enable-shadows: false;\n$enable-gradients: false;\n$enable-rounded: true;\n\n// Bootstrap Variable Overrides\n\n\n// Import themes from installed apps\n@import \"frappe/public/scss/website.bundle\";\n@import \"erpnext/public/scss/website\";\n@import \"nimbus_theme/public/scss/website\";\n\n\n\n// Custom Theme\n\n\n:root {\n\t}\n",
+ "theme_scss": "\n@import url(\"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n// backward compatibility. deprecated in v15\n$font-family-sans-serif: \"Poppins\", \"InterVariable\", \"Inter\", -apple-system, BlinkMacSystemFont,\n\t\"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\",\n\t\"Droid Sans\", \"Helvetica Neue\", sans-serif;\n\n// override font stack if custom font is set in website theme\n:root {\n\t--font-stack: \"Poppins\", \"InterVariable\", \"Inter\", -apple-system, BlinkMacSystemFont,\n\t\"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\",\n\t\"Droid Sans\", \"Helvetica Neue\", sans-serif !important;\n}\n$primary: #337ab7;$enable-shadows: false;\n$enable-gradients: false;\n$enable-rounded: true;\n\n// Bootstrap Variable Overrides\n\n\n// Import themes from installed apps\n@import \"frappe/public/scss/website.bundle\";\n@import \"erpnext/public/scss/website\";\n@import \"nimbus_theme/public/scss/website\";\n\n\n\n// Custom Theme\n\n\n:root {\n\t\n\t--primary: #{$primary};\n\t--primary-color: #{$primary};\n\t}\n",
  "theme_url": "/files/website_theme/nimbus_style.css"
 }
