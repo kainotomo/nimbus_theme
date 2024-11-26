@@ -1,6 +1,6 @@
 // navbar
 .navbar-primary {
-    background: linear-gradient(to right, darken($navbar_bg, 25%), $navbar_bg);
+    background: linear-gradient(to right, darken($nimbus_main, 25%), $nimbus_main);
     padding: 12px 0;    
 
     .navbar-search {
@@ -20,15 +20,15 @@
     right: 0;
     left: 0;
     z-index: 1000;
-    box-shadow: 0 4px 2px -2px darken($navbar_bg, 25%);
+    box-shadow: 0 4px 2px -2px darken($nimbus_main, 25%);
 
     .navbar-nav {
         .nav-item {
             &.active {
-                border-bottom: 1px solid $navbar_highlight;
+                border-bottom: 1px solid lighten($nimbus_main, 10%);
             }
             .nav-link:hover {
-                color: $navbar_highlight;
+                color: $nimbus_main;
             }
         }
     }
