@@ -1,6 +1,6 @@
 // navbar
 .navbar-primary {
-    background: linear-gradient(to right, darken($primary, 25%), $logo-blue);
+    background: linear-gradient(to right, darken($navbar_bg, 25%), $navbar_bg);
     padding: 12px 0;    
 
     .navbar-search {
@@ -20,34 +20,18 @@
     right: 0;
     left: 0;
     z-index: 1000;
-    box-shadow: 0 4px 2px -2px var(--gray-800);
+    box-shadow: 0 4px 2px -2px darken($navbar_bg, 25%);
 
     .navbar-nav {
         .nav-item {
             &.active {
-                border-bottom: 1px solid var(--logo-yellow);
+                border-bottom: 1px solid $navbar_highlight;
             }
             .nav-link:hover {
-                color: var(--logo-yellow);
+                color: $navbar_highlight;
             }
         }
     }
 }
 
-.page-breadcrumbs {
-    background: var(--gray-100);
-    border-bottom: 1px solid var(--gray-300);
-    .breadcrumb {
-        background: none;
-        margin-bottom: 0;
-        padding: 0;
-        .breadcrumb-item {
-            a {
-                color: var(--gray-700);
-                &:hover {
-                    color: var(--logo-yellow);
-                }
-            }
-        }
-    }
-}
+
