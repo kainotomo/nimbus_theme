@@ -23,3 +23,21 @@
         background-image: none;
     }
 }
+
+.nimbus_faqs {
+    background-image: url('/assets/nimbus_theme/images/faqs.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    @media (max-width: 767px) {
+        background-image: none;
+    }
+}
+
+.nimbus_project {
+    background-image: url('/assets/nimbus_theme/images/project-management-meeting.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    @media (max-width: 767px) {
+        background-image: none;
+    }
+}
