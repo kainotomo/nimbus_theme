@@ -23,14 +23,17 @@ a:hover {
     transform: scale(1.5) translateZ(0);
 }
 
-.btn.btn-primary {
-	background-color: $nimbus_color;	
+.btn-primary {
+	background-color: $nimbus_color !important;	
+}
+.btn-primary:hover {
+	background-color: darken($nimbus_color, 40%) !important;
 }
 .btn-dark {
-	background-color: darken($nimbus_color, 45%);
+	background-color: darken($nimbus_color, 40%) !important;
 }
 .btn-dark:hover {
-    background-color: darken($nimbus_color, 30%);
+    background-color: $nimbus_color !important;
 }
 
 #back-to-top {
