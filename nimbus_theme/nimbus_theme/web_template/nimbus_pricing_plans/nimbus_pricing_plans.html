@@ -9,13 +9,13 @@
 	<div class="section-features" data-columns="{{ columns or 3 }}"
 		{% if not subtitle %}style="margin-top: -1.5rem"{% endif %}>
 		{%- for plan in plans -%}
-		<div class="section-plan border p-1">
+		<div class="section-plan border p-4 card text-center">
 			<div>
 				{%- if plan.title -%}
-				<h3 class="plan-title mt-0">{{ _(plan.title) }}</h3>
+				<h4 class="plan-title mt-0">{{ _(plan.title) }}</h4>
 				{%- endif -%}
                 {%- if plan.subtitle -%}
-				<h3 class="plan-title mt-0">{{ _(plan.subtitle) }}</h3>
+				<h2 class="plan-title mt-0">{{ _(plan.subtitle) }}</h2>
 				{%- endif -%}
 				{%- if plan.content -%}
 				<p class="plan-content">{{ frappe.utils.md_to_html(_(plan.content)) }}</p>
@@ -23,7 +23,7 @@
 			</div>
 			<div>
 				{%- if plan.url -%}
-				<a href="{{ plan.url }}" class="plan-url stretched-link"> {{ _("Learn more") }} →</a>
+				<a href="{{ plan.url }}" class="plan-url stretched-link"> {{ _(plan.label) }} →</a>
 				{%- endif -%}
 			</div>
 		</div>
