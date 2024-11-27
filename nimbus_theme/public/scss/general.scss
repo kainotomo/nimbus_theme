@@ -1,5 +1,5 @@
 .nimbus_dark {
-    background-color: darken($nimbus_main, 25%);
+    background-color: darken($nimbus_color, 25%);
     .hero-subtitle, .section-description {
         color: var(--gray-300);
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);

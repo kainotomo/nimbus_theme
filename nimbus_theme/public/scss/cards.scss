@@ -4,7 +4,7 @@
 }
 .card:hover {
     transform: scale(1.05) translateZ(0);
-    box-shadow: 0 0 20px $nimbus_main;
+    box-shadow: 0 0 20px $nimbus_color;
 }
 .payment-summary {
     .card:hover {
@@ -26,7 +26,7 @@
 .nimbus-features {
     text-align: center;
     .card {
-        border: 1px solid $nimbus_main;
+        border: 1px solid $nimbus_color;
     }
     .card-img-top {
         width: 25%;
@@ -35,6 +35,6 @@
         margin-right: auto;
     }
     .card-title {
-        color: $nimbus_main;
+        color: $nimbus_color;
     }
 }

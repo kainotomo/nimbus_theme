@@ -24,13 +24,13 @@ a:hover {
 }
 
 .btn.btn-primary {
-	background-color: $nimbus_main;	
+	background-color: $nimbus_color;	
 }
 .btn-dark {
-	background-color: darken($nimbus_main, 45%);
+	background-color: darken($nimbus_color, 45%);
 }
 .btn-dark:hover {
-    background-color: darken($nimbus_main, 30%);
+    background-color: darken($nimbus_color, 30%);
 }
 
 #back-to-top {
@@ -38,7 +38,7 @@ a:hover {
     bottom: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: $nimbus_main;
+    background-color: $nimbus_color;
     color: white;
     border: none;
     border-radius: 5px;
