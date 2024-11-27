@@ -20,7 +20,7 @@
   "meta_description": null,
   "meta_image": null,
   "meta_title": null,
-  "modified": "2024-11-27 10:45:55.201535",
+  "modified": "2024-11-27 10:51:14.134815",
   "module": "Nimbus Theme",
   "name": "nimbus-home",
   "page_blocks": [
@@ -95,6 +95,24 @@
     "section_id": null,
     "web_template": "Section with Image Grid",
     "web_template_values": "{\"title\":\"Our Portfolio\",\"subtitle\":\"Lorem ipsum dolor sit amet\",\"image_1\":\"/assets/nimbus_theme/images/portf-1.jpg\",\"image_2\":\"/assets/nimbus_theme/images/portf-2.jpg\",\"image_3\":\"/assets/nimbus_theme/images/portf-3.jpg\",\"image_4\":\"/assets/nimbus_theme/images/portf-4.jpg\"}"
+   },
+   {
+    "add_background_image": 0,
+    "add_border_at_bottom": 0,
+    "add_border_at_top": 0,
+    "add_bottom_padding": 1,
+    "add_container": 1,
+    "add_shade": 0,
+    "add_top_padding": 1,
+    "background_image": "",
+    "css_class": "nimbus_dark nimbus_project",
+    "hide_block": 0,
+    "parent": "nimbus-home",
+    "parentfield": "page_blocks",
+    "parenttype": "Web Page",
+    "section_id": null,
+    "web_template": "Hero",
+    "web_template_values": "{\"title\":\"Let's Discuss your Projects\",\"subtitle\":\"We pride ourselves with our ability to perform and deliver results. Use the form below to discuss your project needs with our team, we will get back asap\",\"primary_action_label\":\"Contact Us\",\"primary_action\":\"/contact\",\"align\":\"Center\"}"
    },
    {
     "add_background_image": 0,
@@ -185,24 +203,6 @@
     "section_id": null,
     "web_template": "Section with Collapsible Content",
     "web_template_values": "{\"title\":\"FAQ's\",\"subtitle\":\"Lorem ipsum dolor sit amet\",\"align\":\"Left\",\"items\":[{\"idx\":1,\"__islocal\":true,\"title\":\"What is web domain and hosting\",\"content\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\",\"name\":\"row 1\"},{\"idx\":2,\"__islocal\":true,\"title\":\"Which server is better linux or windows\",\"content\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\",\"name\":\"row 2\"},{\"idx\":3,\"__islocal\":true,\"title\":\"Shared hosting or VPS?\",\"content\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\",\"name\":\"row 3\"},{\"idx\":4,\"__islocal\":true,\"title\":\"Why organic SEO is important for all businesses?\",\"content\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\",\"name\":\"row 4\"}]}"
-   },
-   {
-    "add_background_image": 0,
-    "add_border_at_bottom": 0,
-    "add_border_at_top": 0,
-    "add_bottom_padding": 1,
-    "add_container": 1,
-    "add_shade": 0,
-    "add_top_padding": 1,
-    "background_image": "",
-    "css_class": "nimbus_dark nimbus_project",
-    "hide_block": 0,
-    "parent": "nimbus-home",
-    "parentfield": "page_blocks",
-    "parenttype": "Web Page",
-    "section_id": null,
-    "web_template": "Hero",
-    "web_template_values": "{\"title\":\"Let's Discuss your Projects\",\"subtitle\":\"We pride ourselves with our ability to perform and deliver results. Use the form below to discuss your project needs with our team, we will get back asap\",\"primary_action_label\":\"Contact Us\",\"primary_action\":\"/contact\",\"align\":\"Center\"}"
    }
   ],
   "published": 1,
