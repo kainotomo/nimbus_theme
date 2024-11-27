@@ -20,7 +20,7 @@
   "meta_description": null,
   "meta_image": null,
   "meta_title": null,
-  "modified": "2024-11-27 09:14:51.567402",
+  "modified": "2024-11-27 09:38:28.730572",
   "module": "Nimbus Theme",
   "name": "nimbus-home",
   "page_blocks": [
@@ -33,7 +33,7 @@
     "add_shade": 0,
     "add_top_padding": 1,
     "background_image": "",
-    "css_class": "nimbus-particles nimbus_dark",
+    "css_class": "nimbus-particles nimbus_dark nimbus_flame",
     "hide_block": 0,
     "parent": "nimbus-home",
     "parentfield": "page_blocks",
@@ -113,6 +113,24 @@
     "section_id": null,
     "web_template": "Nimbus Pricing Plans",
     "web_template_values": "{\"title\":\"Pricing Plans\",\"subtitle\":\"Lorem ipsum dolor sit amet\",\"columns\":\"3\",\"plans\":[{\"idx\":1,\"__islocal\":true,\"title\":\"Basic\",\"subtitle\":\"<sup>€</sup>25\",\"content\":\"Unlimited GB Space<br>\\r\\n30 Domain Names<br>\\r\\nFree SSL<br>\\r\\nDaily Backup<br>\\r\\nFree Templates<br>\\r\\nFree Email<br>\\r\\n10 Databases<br>\\r\\nUnlimited Email Address<br>\\r\\nLive Support\",\"label\":\"Order Now\",\"url\":\"/contact\",\"name\":\"row 1\"},{\"idx\":2,\"__islocal\":true,\"title\":\"Standard\",\"subtitle\":\"<sup>€</sup>50\",\"content\":\"Unlimited GB Space<br>\\r\\n30 Domain Names<br>\\r\\nFree SSL<br>\\r\\nDaily Backup<br>\\r\\nFree Templates<br>\\r\\nFree Email<br>\\r\\n10 Databases<br>\\r\\nUnlimited Email Address<br>\\r\\nLive Support\",\"label\":\"Order now\",\"url\":\"/contact\",\"name\":\"row 2\"},{\"idx\":3,\"__islocal\":true,\"title\":\"Premium\",\"subtitle\":\"<sup>€</sup>100\",\"content\":\"Unlimited GB Space<br>\\r\\n30 Domain Names<br>\\r\\nFree SSL<br>\\r\\nDaily Backup<br>\\r\\nFree Templates<br>\\r\\nFree Email<br>\\r\\n10 Databases<br>\\r\\nUnlimited Email Address<br>\\r\\nLive Support\",\"label\":\"Order Now\",\"url\":\"/contact\",\"name\":\"row 3\"}]}"
+   },
+   {
+    "add_background_image": 0,
+    "add_border_at_bottom": 0,
+    "add_border_at_top": 0,
+    "add_bottom_padding": 1,
+    "add_container": 1,
+    "add_shade": 0,
+    "add_top_padding": 1,
+    "background_image": "",
+    "css_class": "nimbus_dark text-white nimbus_testimonials",
+    "hide_block": 0,
+    "parent": "nimbus-home",
+    "parentfield": "page_blocks",
+    "parenttype": "Web Page",
+    "section_id": null,
+    "web_template": "Section with Testimonials",
+    "web_template_values": "{\"title\":\"Testimonials\",\"subtitle\":\"Lorem ipsum dolor sit amet\",\"columns\":\"3\",\"testimonials\":[{\"idx\":1,\"__islocal\":true,\"content\":\"\\\"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam.\\\"\",\"full_name\":\"John Doe\",\"designation\":\"Web Designer\",\"image\":\"/assets/nimbus_theme/images/testimonial-1.jpg\",\"name\":\"row 1\"},{\"idx\":2,\"__islocal\":true,\"content\":\"\\\"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam.\\\"\",\"full_name\":\"Mary Jane\",\"designation\":\"CTO\",\"image\":\"/assets/nimbus_theme/images/testimonial-2.jpg\",\"name\":\"row 2\"},{\"idx\":3,\"__islocal\":true,\"content\":\"\\\"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam.\\\"\",\"full_name\":\"Zena Ioannou\",\"designation\":\"Freelance\",\"image\":\"/assets/nimbus_theme/images/testimonial-4.jpg\",\"name\":\"row 3\"}]}"
    }
   ],
   "published": 1,
