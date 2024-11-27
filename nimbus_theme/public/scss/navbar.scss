@@ -1,6 +1,6 @@
 // navbar
 .navbar-primary {
-    background: linear-gradient(to right, darken($logo-blue, 25%), $logo-blue);
+    background: darken($nimbus_color, 10%);
     padding: 12px 0;    
 
     .navbar-search {
@@ -20,34 +20,18 @@
     right: 0;
     left: 0;
     z-index: 1000;
-    box-shadow: 0 4px 2px -2px var(--gray-800);
+    box-shadow: 0 4px 2px -2px darken($nimbus_color, 10%);
 
     .navbar-nav {
         .nav-item {
             &.active {
-                border-bottom: 1px solid var(--logo-yellow);
+                border-bottom: 1px solid lighten($nimbus_color, 10%);
             }
             .nav-link:hover {
-                color: var(--logo-yellow);
+                color: lighten($nimbus_color, 10%);
             }
         }
     }
 }
 
-.page-breadcrumbs {
-    background: var(--gray-100);
-    border-bottom: 1px solid var(--gray-300);
-    .breadcrumb {
-        background: none;
-        margin-bottom: 0;
-        padding: 0;
-        .breadcrumb-item {
-            a {
-                color: var(--gray-700);
-                &:hover {
-                    color: var(--logo-yellow);
-                }
-            }
-        }
-    }
-}
+

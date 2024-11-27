@@ -1,3 +1,13 @@
 html {
     scroll-behavior: smooth;
 }
+
+@import "./animations.scss";
+@import "./fonts.scss";
+@import "./particles.scss";
+@import "./navbar.scss";
+@import "./links.scss";
+@import "./cards.scss";
+@import "./hero.scss";
+@import "./footer.scss";
+@import "./general.scss";
