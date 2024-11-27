@@ -1,0 +1,32 @@
+<div class="section-with-features">
+	{%- if title -%}
+	<h1 class="section-title">{{ _(title) }}</h1>
+	{%- endif -%}
+	{%- if subtitle -%}
+	<p class="section-description">{{ _(subtitle) }}</p>
+	{%- endif -%}
+
+	<div class="section-features" data-columns="{{ columns or 3 }}"
+		{% if not subtitle %}style="margin-top: -1.5rem"{% endif %}>
+		{%- for plan in plans -%}
+		<div class="section-plan border p-1">
+			<div>
+				{%- if plan.title -%}
+				<h3 class="plan-title mt-0">{{ _(plan.title) }}</h3>
+				{%- endif -%}
+                {%- if plan.subtitle -%}
+				<h3 class="plan-title mt-0">{{ _(plan.subtitle) }}</h3>
+				{%- endif -%}
+				{%- if plan.content -%}
+				<p class="plan-content">{{ frappe.utils.md_to_html(_(plan.content)) }}</p>
+				{%- endif -%}
+			</div>
+			<div>
+				{%- if plan.url -%}
+				<a href="{{ plan.url }}" class="plan-url stretched-link"> {{ _("Learn more") }} →</a>
+				{%- endif -%}
+			</div>
+		</div>
+		{%- endfor -%}
+	</div>
+</div>
