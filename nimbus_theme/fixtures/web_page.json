@@ -20,7 +20,7 @@
   "meta_description": null,
   "meta_image": null,
   "meta_title": null,
-  "modified": "2024-11-27 09:38:28.730572",
+  "modified": "2024-11-27 09:49:05.450274",
   "module": "Nimbus Theme",
   "name": "nimbus-home",
   "page_blocks": [
@@ -131,6 +131,24 @@
     "section_id": null,
     "web_template": "Section with Testimonials",
     "web_template_values": "{\"title\":\"Testimonials\",\"subtitle\":\"Lorem ipsum dolor sit amet\",\"columns\":\"3\",\"testimonials\":[{\"idx\":1,\"__islocal\":true,\"content\":\"\\\"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam.\\\"\",\"full_name\":\"John Doe\",\"designation\":\"Web Designer\",\"image\":\"/assets/nimbus_theme/images/testimonial-1.jpg\",\"name\":\"row 1\"},{\"idx\":2,\"__islocal\":true,\"content\":\"\\\"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam.\\\"\",\"full_name\":\"Mary Jane\",\"designation\":\"CTO\",\"image\":\"/assets/nimbus_theme/images/testimonial-2.jpg\",\"name\":\"row 2\"},{\"idx\":3,\"__islocal\":true,\"content\":\"\\\"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam.\\\"\",\"full_name\":\"Zena Ioannou\",\"designation\":\"Freelance\",\"image\":\"/assets/nimbus_theme/images/testimonial-4.jpg\",\"name\":\"row 3\"}]}"
+   },
+   {
+    "add_background_image": 0,
+    "add_border_at_bottom": 0,
+    "add_border_at_top": 0,
+    "add_bottom_padding": 1,
+    "add_container": 1,
+    "add_shade": 0,
+    "add_top_padding": 1,
+    "background_image": null,
+    "css_class": null,
+    "hide_block": 0,
+    "parent": "nimbus-home",
+    "parentfield": "page_blocks",
+    "parenttype": "Web Page",
+    "section_id": null,
+    "web_template": "Section with Features",
+    "web_template_values": "{\"columns\":\"3\",\"features\":[{\"idx\":1,\"__islocal\":true,\"title\":\"232 Happy Clients\",\"content\":\"consequuntur quae diredo\",\"icon\":\"/assets/nimbus_theme/images/happy-clients.svg\",\"name\":\"row 1\"},{\"idx\":2,\"__islocal\":true,\"title\":\"521 Completed Projects\",\"content\":\"adipisci atque quia aut\",\"icon\":\"/assets/nimbus_theme/images/complete-projects.svg\",\"name\":\"row 2\"},{\"idx\":3,\"__islocal\":true,\"title\":\"453 Hours Of Support\",\"content\":\"aut commodi quaerat\",\"icon\":\"/assets/nimbus_theme/images/hours-support.svg\",\"name\":\"row 3\"}]}"
    }
   ],
   "published": 1,
