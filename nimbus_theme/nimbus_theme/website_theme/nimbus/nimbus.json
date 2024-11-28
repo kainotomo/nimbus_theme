@@ -4,7 +4,7 @@
  "button_rounded_corners": 1,
  "button_shadows": 0,
  "creation": "2024-11-08 11:40:40.441813",
- "custom": 0,
+ "custom": 1,
  "custom_overrides": "$nimbus_color: blue;\r\n@if variable-exists(primary) {\r\n  $nimbus_color: $primary;\r\n}",
  "custom_scss": "",
  "dark_color": "",
