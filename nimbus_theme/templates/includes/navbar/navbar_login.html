@@ -1,0 +1,27 @@
+<!-- post login tools -->
+{% if not only_static %}
+
+	{% if frappe.session.user != 'Guest' %}
+	<li class="nav-item dropdown logged-in" id="website-post-login" data-label="website-post-login" style="display: none">
+		<a href="#" class="nav-link nav-avatar" data-toggle="dropdown">
+			<span class="user-image-wrapper"></span>
+		</a>
+		<ul class="dropdown-menu dropdown-menu-right" role="menu">
+			<a class="dropdown-item" href="/download_list" rel="nofollow">
+				{{ _("Portal") }}
+			</a>
+			<a class="dropdown-item" href="/logout" rel="nofollow">
+				{{ _("Log out") }}
+			</a>
+			<a class="dropdown-item switch-to-desk hidden" href="/desk">{{ _("Switch To Desk") }}</a>
+			<a class="dropdown-item apps hidden" href="/apps">{{ _("Apps") }}</a>
+		</ul>
+	</li>
+	{% endif %}
+
+	{% if not hide_login %}
+	<li class="nav-item">
+		<a class="nav-link btn-login-area" href="/login">{{ _("Login") }}</a>
+	</li>
+	{% endif %}
+{% endif %}
